@@ -1,0 +1,91 @@
+/*
+* @Author: zn
+* @Date:   2019-12-12 22:33:55
+* @Last Modified by:   zn
+* @Last Modified time: 2019-12-15 15:53:14
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+	text-align: center;
+}
+.head{
+	width: 1200px;
+	height: 20px;
+	margin: 0 auto;
+	position: relative;
+	background-color:#ccc;
+}
+.rgt{
+	width: 1000px;
+	height: 20px;
+	margin: 0 auto;
+	position: relative;
+	top: -20px;
+	left: 50px;
+	overflow: hidden;
+}
+.zi{
+	width:500px ;
+	height: 20px;
+	position: relative;
+	right: -200px;
+	color:red;
+}
+.box{
+	width: 1200px;
+	height: 382px;
+	margin: 10px auto;
+	position: relative;
+	overflow:  hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	top: 175px;
+	line-height: : 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
